@@ -1,7 +1,7 @@
 # Anime_Quiz
 Are you an anime fan? Let's check with a beautiful quiz!
 
-Compare your score with the following Buddy Meter.
+Compare your score with the following Anime Fan Meter.
 
 ANIME FAN METER :-  
 0/4 - Not a fan ⛔  
