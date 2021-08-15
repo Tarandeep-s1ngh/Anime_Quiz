@@ -5,7 +5,6 @@ var userName = readlineSync.question('What is your name ? ');
 console.log('Hello '+ chalk.red.bold(userName +'!') + ' Welcome to the Anime Quiz.');
 console.log(chalk.green.bgBlack('---------------------------------------------------'))
 console.log(chalk.green.bgBlack('NOTE:'))
-console.log(chalk.green.bgBlack('Please type all the answers in lowercase.'))
 console.log(chalk.green.bgBlack('You get +1 for each right answer and -1 for each wrong answer.'))
 console.log(chalk.green.bgBlack('---------------------------------------------------'))
 
@@ -29,17 +28,35 @@ function play(question,answer){
 
 
 var questions = [{
-  question: "What is the name of protagonist in Dragon Ball Z? ",
-  answer: "goku"
+  question: "What is the name of protagonist in Dragon Ball Z? \n \
+  a) Goku \n \
+  b) Saitama \n \
+  c) Sasuke \n ",
+  answer: "a"
 }, {
-  question: "Which anime features character named Saitama? ",
-  answer: "one punch man"
+  question: "Which anime features character named Saitama? \n \
+  a) DBZ \n \
+  b) Death Note \n \
+  c) One Punch Man \n ",
+  answer: "c"
 }, {
-  question: "Who is the seventh Hokage of leaf village? ",
-  answer: "naruto uzumaki"
+  question: "Who is the seventh Hokage of leaf village? \n \
+  a) Hashirama Senju \n \
+  b) Naruto Uzumaki \n \
+  c) Hiruzen Sarutobi \n ",
+  answer: "b"
 }, {
-  question: "which pokemon of Ash doesn't like to go inside a pokeball? ",
-  answer: "pikachu"
+  question: "What is the name of 9 tailed beast? \n \
+  a) Kurama \n \
+  b) Fox Spirit \n \
+  c) Orange Beast \n ",
+  answer: "a"
+}, {
+  question: "which pokemon of Ash doesn't like to go inside a pokeball? \n \
+  a) Bulbasaur \n \
+  b) Squirtle \n \
+  c) Pikachu \n ",
+  answer: "c"
 }]
 
 for(var i=0; i<questions.length; i++ ){

@@ -1,0 +1,24 @@
+{
+  "name": "AnimeQuiz",
+  "version": "1.0.0",
+  "description": "Are you an anime fan? Let's check with a beautiful quiz!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarandeep-s1ngh/Anime_Quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tarandeep-s1ngh/Anime_Quiz/issues"
+  },
+  "homepage": "https://github.com/Tarandeep-s1ngh/Anime_Quiz#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
