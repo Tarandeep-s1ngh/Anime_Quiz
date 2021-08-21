@@ -14,7 +14,7 @@ function play(question,answer){
   var userAnswer = readlineSync.question(question)
   
   if(userAnswer === answer){
-    console.log(chalk.red.bold('You are right!'));
+    console.log(chalk.green.bold('You are right!'));
     score = score+1;
   }
   else{
@@ -23,7 +23,7 @@ function play(question,answer){
   }
 
   console.log(chalk.blue.bold('Current score : '+ score));
-  console.log(chalk.green.bgBlack('----------------------------------'));
+  console.log(chalk.cyan.bgBlack('----------------------------------'));
 }
 
 
