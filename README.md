@@ -10,3 +10,5 @@ ANIME FAN METER :-
 3/5 - Started watching regularly ✨  
 4/5 - Good knowledge, regular watcher 🥳  
 5/5 - Top fan 👑
+
+[See it in action!](https://replit.com/@TarandeepS1ngh/AnimeQuiz?embed=1&output=1#index.js)
